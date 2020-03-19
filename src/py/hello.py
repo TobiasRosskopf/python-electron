@@ -3,14 +3,24 @@
 import sys
 
 
+def fac(n):
+    product = 1
+    for i in range(1, n + 1):
+        product *= i
+    
+    return product
+
+
 def main():
     if len(sys.argv) > 1:
-        n = int(sys.argv[1])
+        args = sys.argv[1]
     else:
-        n = int(sys.stdin.read())
+        args = sys.stdin.read()
 
-    for i in range(1, n + 1):
-        print(f" {i}")
+    try:
+        print(fac(int(args)))
+    except:
+        print("ERROR")
 
 
 if __name__ == "__main__":
