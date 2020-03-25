@@ -12,7 +12,7 @@ app.once('ready', () => {
     });
 
     // Load GUI
-    window.loadFile('gui/mainwindow.html');
+    window.loadFile('src/gui/mainwindow.html');
 
     // For development and debugging
     // window.openDevTools();
