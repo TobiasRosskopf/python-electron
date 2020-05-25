@@ -17,7 +17,7 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "electron-packager": "^14.2.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "python-shell": "^0.5.0"
   }
 }
